@@ -1,0 +1,33 @@
+doctype html
+html 
+    head 
+        title= title
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+        link(rel="stylesheet", href="/css/style.css")
+    body    
+        .container
+            .form-card
+                h1 Create Contact
+                p.subtitle Enter details below to add a new contact to your HubSpot CRM
+                
+                //- Perintah Praktikum: Form HTML mengirimkan POST ke "/update-cobj"
+                form(action="/update-cobj" method="POST")
+                    .form-group
+                        label(for="firstname") First Name (Nama Depan) *
+                        input(type="text" id="firstname" name="firstname" placeholder="Contoh: Budi, Riri" required)
+                    
+                    .form-group
+                        label(for="lastname") Last Name (Nama Belakang)
+                        input(type="text" id="lastname" name="lastname" placeholder="Contoh: Pratama, Wijaya")
+                        
+                    .form-group
+                        label(for="email") Email Address (Alamat Email) *
+                        input(type="text" id="email" name="email" placeholder="Contoh: budi@gmail.com" required)
+                    
+                    .form-actions
+                        //- Perintah Praktikum: Link "Return to the homepage" yang mengarah ke root "/"
+                        a(href="/" class="btn btn-secondary") Return to the homepage
+                        button(type="submit" class="btn btn-primary") Save Record
+            
+            footer
+                p 🛠️ HubSpot Academy Practicum | Developed by Satriyo Untoro

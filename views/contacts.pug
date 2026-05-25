@@ -1,0 +1,30 @@
+doctype html
+html 
+    head 
+        title= title
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+        link(rel="stylesheet", href="/css/style.css")
+    body    
+        .container
+            h1 Contacts List (Reference Only)
+            p.subtitle This page is a reference for displaying data from HubSpot API.
+            
+            .nav-actions
+                a(href="/" class="btn btn-secondary") Return to Homepage
+            
+            .table-wrapper
+                table
+                    thead
+                        tr
+                            th Contact Name
+                            th Email
+                            th Date Created
+                    tbody
+                        each contact in data
+                            tr
+                                td #{contact.properties.firstname} #{contact.properties.lastname}
+                                td #{contact.properties.email}
+                                td #{contact.properties.createdate}
+            
+            footer
+                p HubSpot Integration Practicum | Built for Reference
