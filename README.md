@@ -11,8 +11,8 @@ Aplikasi web berbasis Node.js yang mengintegrasikan HubSpot API V3 CRM dengan me
 > HubSpot Academy memperbolehkan penggunaan objek standar Contacts jika Anda tidak memiliki akses ke Custom Object.
 > Tautan di bawah ini mengarah ke daftar kontak pada akun uji coba Anda.
 
-👉 **[TAUTAN DAFTAR KONTAK ANDA DI HUBSPOT](https://app.hubspot.com/contacts/246248260/objects/0-1/views/all/list)** 👈
-*(Silakan edit berkas ini jika Anda ingin memperbarui Test Account ID `246248260` dengan nomor portal Anda yang lain).*
+👉 **[TAUTAN DAFTAR KONTAK ANDA DI HUBSPOT](https://app-na2.hubspot.com/contacts/246378992/objects/0-1/views/all/list)** 👈
+*(Silakan edit berkas ini jika Anda ingin memperbarui Test Account ID `246378992` dengan nomor portal Anda yang lain).*
 
 ---
 
